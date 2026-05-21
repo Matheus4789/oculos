@@ -180,6 +180,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    min-width: 0; /* Impede que o item do grid expanda além do 1.2fr alocado */
 }
 
 .main-image-container {
@@ -190,12 +191,13 @@ body {
 .carousel-main {
     display: flex;
     overflow-x: auto;
+    overflow-y: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     -ms-overflow-style: none;
     scrollbar-width: none;
     border-radius: 8px;
-    /* Removed border and shadow */
+    width: 100%;
 }
 
 .carousel-main::-webkit-scrollbar {
