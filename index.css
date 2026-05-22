@@ -1,18 +1,18 @@
 :root {
-    --primary: #000000;            /* Ray-Ban black */
-    --primary-light: #1a1a1a;
-    --secondary: #f5f5f5;
-    --accent: #E60000;             /* Ray-Ban iconic red */
-    --accent-dark: #B30000;
-    --text: #111111;
-    --text-light: #6b6b6b;
+    --primary: #0f172a;            /* Deep Slate Blue */
+    --primary-light: #1e293b;
+    --secondary: #f8fafc;
+    --accent: #c5a059;             /* Champagne Gold */
+    --accent-dark: #b38b47;
+    --text: #334155;
+    --text-light: #64748b;
     --success: #1b4332;
     --white: #ffffff;
-    --shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
-    --shadow-hover: 0 20px 50px rgba(0, 0, 0, 0.12);
-    --border: #e5e5e5;
-    --gradient: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
-    --rayban-red-gradient: linear-gradient(135deg, #E60000 0%, #B30000 100%);
+    --shadow: 0 10px 40px rgba(15, 23, 42, 0.08);
+    --shadow-hover: 0 20px 50px rgba(15, 23, 42, 0.15);
+    --border: #e2e8f0;
+    --gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    --brand-gradient: linear-gradient(135deg, #c5a059 0%, #b38b47 100%);
 }
 
 img {
@@ -180,7 +180,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    min-width: 0; /* Impede que o item do grid expanda além do 1.2fr alocado */
 }
 
 .main-image-container {
@@ -191,13 +190,12 @@ body {
 .carousel-main {
     display: flex;
     overflow-x: auto;
-    overflow-y: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     -ms-overflow-style: none;
     scrollbar-width: none;
     border-radius: 8px;
-    width: 100%;
+    /* Removed border and shadow */
 }
 
 .carousel-main::-webkit-scrollbar {
@@ -527,6 +525,8 @@ body {
 /* Description Section */
 .product-description {
     padding: 60px 0;
+    content-visibility: auto;
+    contain-intrinsic-size: 1000px;
 }
 
 .description-content {
@@ -757,6 +757,8 @@ footer {
     padding: 100px 0;
     background: var(--white);
     border-top: 1px solid var(--border);
+    content-visibility: auto;
+    contain-intrinsic-size: 1500px;
 }
 
 .testimonials-header-flex {
