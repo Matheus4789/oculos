@@ -66,30 +66,12 @@
                     <div class="product-gallery">
                         <div class="main-image-container">
                             <div class="carousel-main" id="carousel">
-                                <!-- Preto: slides 0-4 -->
-                                <div class="carousel-item" id="slide-0"><img src="imgsprincipais/oculospreto.jpg" alt="Óculos E&M Folding Preto - 1" decoding="async" fetchpriority="high"></div>
-                                <div class="carousel-item" id="slide-1"><img src="imgsprincipais/oculoscarrosel.jpg" alt="Óculos E&M Folding Preto - 2" loading="lazy" decoding="async"></div>
-                                <div class="carousel-item" id="slide-2"><img src="imgsprincipais/oculoscarrosel1.jpg" alt="Óculos E&M Folding Preto - 3" loading="lazy" decoding="async"></div>
-                                <div class="carousel-item" id="slide-3"><img src="imgsprincipais/oculoscarrossel3.jpg" alt="Óculos E&M Folding Preto - 4" loading="lazy" decoding="async"></div>
-                                <div class="carousel-item" id="slide-4"><img src="imgsprincipais/oculoscarrosel4.jpg" alt="Óculos E&M Folding Preto - 5" loading="lazy" decoding="async"></div>
-                                <!-- Azul: slides 5-9 -->
-                                <div class="carousel-item" id="slide-5"><img src="imgsprincipais/oculosazul.jpg" alt="Óculos E&M Folding Azul - 1" loading="lazy" decoding="async"></div>
-                                <div class="carousel-item" id="slide-6"><img src="imgsprincipais/oculoscarrosel.jpg" alt="Óculos E&M Folding Azul - 2" loading="lazy" decoding="async"></div>
-                                <div class="carousel-item" id="slide-7"><img src="imgsprincipais/oculoscarrosel1.jpg" alt="Óculos E&M Folding Azul - 3" loading="lazy" decoding="async"></div>
-                                <div class="carousel-item" id="slide-8"><img src="imgsprincipais/oculoscarrossel3.jpg" alt="Óculos E&M Folding Azul - 4" loading="lazy" decoding="async"></div>
-                                <div class="carousel-item" id="slide-9"><img src="imgsprincipais/oculoscarrosel4.jpg" alt="Óculos E&M Folding Azul - 5" loading="lazy" decoding="async"></div>
-                                <!-- Marrom: slides 10-14 -->
-                                <div class="carousel-item" id="slide-10"><img src="imgsprincipais/oculosmarrom.jpg" alt="Óculos E&M Folding Marrom - 1" loading="lazy" decoding="async"></div>
-                                <div class="carousel-item" id="slide-11"><img src="imgsprincipais/oculoscarrosel.jpg" alt="Óculos E&M Folding Marrom - 2" loading="lazy" decoding="async"></div>
-                                <div class="carousel-item" id="slide-12"><img src="imgsprincipais/oculoscarrosel1.jpg" alt="Óculos E&M Folding Marrom - 3" loading="lazy" decoding="async"></div>
-                                <div class="carousel-item" id="slide-13"><img src="imgsprincipais/oculoscarrossel3.jpg" alt="Óculos E&M Folding Marrom - 4" loading="lazy" decoding="async"></div>
-                                <div class="carousel-item" id="slide-14"><img src="imgsprincipais/oculoscarrosel4.jpg" alt="Óculos E&M Folding Marrom - 5" loading="lazy" decoding="async"></div>
-                                <!-- Verde: slides 15-19 -->
-                                <div class="carousel-item" id="slide-15"><img src="imgsprincipais/oculosverde.jpg" alt="Óculos E&M Folding Verde - 1" loading="lazy" decoding="async"></div>
-                                <div class="carousel-item" id="slide-16"><img src="imgsprincipais/oculoscarrosel.jpg" alt="Óculos E&M Folding Verde - 2" loading="lazy" decoding="async"></div>
-                                <div class="carousel-item" id="slide-17"><img src="imgsprincipais/oculoscarrosel1.jpg" alt="Óculos E&M Folding Verde - 3" loading="lazy" decoding="async"></div>
-                                <div class="carousel-item" id="slide-18"><img src="imgsprincipais/oculoscarrossel3.jpg" alt="Óculos E&M Folding Verde - 4" loading="lazy" decoding="async"></div>
-                                <div class="carousel-item" id="slide-19"><img src="imgsprincipais/oculoscarrosel4.jpg" alt="Óculos E&M Folding Verde - 5" loading="lazy" decoding="async"></div>
+                                <!-- Slides -->
+                                <div class="carousel-item" id="slide-0"><img id="main-color-img" src="imgsprincipais/oculospreto.jpg" alt="Óculos E&M Folding" decoding="async" fetchpriority="high"></div>
+                                <div class="carousel-item" id="slide-1"><img src="imgsprincipais/oculoscarrosel.jpg" alt="Óculos E&M Folding - Detalhe 1" loading="lazy" decoding="async"></div>
+                                <div class="carousel-item" id="slide-2"><img src="imgsprincipais/oculoscarrosel1.jpg" alt="Óculos E&M Folding - Detalhe 2" loading="lazy" decoding="async"></div>
+                                <div class="carousel-item" id="slide-3"><img src="imgsprincipais/oculoscarrossel3.jpg" alt="Óculos E&M Folding - Detalhe 3" loading="lazy" decoding="async"></div>
+                                <div class="carousel-item" id="slide-4"><img src="imgsprincipais/oculoscarrosel4.jpg" alt="Óculos E&M Folding - Detalhe 4" loading="lazy" decoding="async"></div>
                             </div>
                             <!-- Arrows -->
                             <button class="carousel-arrow prev" onclick="moveCarousel(-1)"><i class="fa-solid fa-chevron-left"></i></button>
@@ -98,30 +80,11 @@
 
 
                         <div class="thumbnail-grid">
-                            <!-- Preto -->
-                            <div class="thumbnail active" onclick="scrollToSlide(0, this)"><img src="imgsprincipais/oculospreto.jpg" alt="Thumb Preto 1"></div>
-                            <div class="thumbnail" onclick="scrollToSlide(1, this)"><img src="imgsprincipais/oculoscarrosel.jpg" alt="Thumb Preto 2" loading="lazy"></div>
-                            <div class="thumbnail" onclick="scrollToSlide(2, this)"><img src="imgsprincipais/oculoscarrosel1.jpg" alt="Thumb Preto 3" loading="lazy"></div>
-                            <div class="thumbnail" onclick="scrollToSlide(3, this)"><img src="imgsprincipais/oculoscarrossel3.jpg" alt="Thumb Preto 4" loading="lazy"></div>
-                            <div class="thumbnail" onclick="scrollToSlide(4, this)"><img src="imgsprincipais/oculoscarrosel4.jpg" alt="Thumb Preto 5" loading="lazy"></div>
-                            <!-- Azul -->
-                            <div class="thumbnail" onclick="scrollToSlide(5, this)"><img src="imgsprincipais/oculosazul.jpg" alt="Thumb Azul 1" loading="lazy"></div>
-                            <div class="thumbnail" onclick="scrollToSlide(6, this)"><img src="imgsprincipais/oculoscarrosel.jpg" alt="Thumb Azul 2" loading="lazy"></div>
-                            <div class="thumbnail" onclick="scrollToSlide(7, this)"><img src="imgsprincipais/oculoscarrosel1.jpg" alt="Thumb Azul 3" loading="lazy"></div>
-                            <div class="thumbnail" onclick="scrollToSlide(8, this)"><img src="imgsprincipais/oculoscarrossel3.jpg" alt="Thumb Azul 4" loading="lazy"></div>
-                            <div class="thumbnail" onclick="scrollToSlide(9, this)"><img src="imgsprincipais/oculoscarrosel4.jpg" alt="Thumb Azul 5" loading="lazy"></div>
-                            <!-- Marrom -->
-                            <div class="thumbnail" onclick="scrollToSlide(10, this)"><img src="imgsprincipais/oculosmarrom.jpg" alt="Thumb Marrom 1" loading="lazy"></div>
-                            <div class="thumbnail" onclick="scrollToSlide(11, this)"><img src="imgsprincipais/oculoscarrosel.jpg" alt="Thumb Marrom 2" loading="lazy"></div>
-                            <div class="thumbnail" onclick="scrollToSlide(12, this)"><img src="imgsprincipais/oculoscarrosel1.jpg" alt="Thumb Marrom 3" loading="lazy"></div>
-                            <div class="thumbnail" onclick="scrollToSlide(13, this)"><img src="imgsprincipais/oculoscarrossel3.jpg" alt="Thumb Marrom 4" loading="lazy"></div>
-                            <div class="thumbnail" onclick="scrollToSlide(14, this)"><img src="imgsprincipais/oculoscarrosel4.jpg" alt="Thumb Marrom 5" loading="lazy"></div>
-                            <!-- Verde -->
-                            <div class="thumbnail" onclick="scrollToSlide(15, this)"><img src="imgsprincipais/oculosverde.jpg" alt="Thumb Verde 1" loading="lazy"></div>
-                            <div class="thumbnail" onclick="scrollToSlide(16, this)"><img src="imgsprincipais/oculoscarrosel.jpg" alt="Thumb Verde 2" loading="lazy"></div>
-                            <div class="thumbnail" onclick="scrollToSlide(17, this)"><img src="imgsprincipais/oculoscarrosel1.jpg" alt="Thumb Verde 3" loading="lazy"></div>
-                            <div class="thumbnail" onclick="scrollToSlide(18, this)"><img src="imgsprincipais/oculoscarrossel3.jpg" alt="Thumb Verde 4" loading="lazy"></div>
-                            <div class="thumbnail" onclick="scrollToSlide(19, this)"><img src="imgsprincipais/oculoscarrosel4.jpg" alt="Thumb Verde 5" loading="lazy"></div>
+                            <div class="thumbnail active" onclick="scrollToSlide(0, this)"><img id="thumb-color-img" src="imgsprincipais/oculospreto.jpg" alt="Thumb Principal"></div>
+                            <div class="thumbnail" onclick="scrollToSlide(1, this)"><img src="imgsprincipais/oculoscarrosel.jpg" alt="Thumb Detalhe 1" loading="lazy"></div>
+                            <div class="thumbnail" onclick="scrollToSlide(2, this)"><img src="imgsprincipais/oculoscarrosel1.jpg" alt="Thumb Detalhe 2" loading="lazy"></div>
+                            <div class="thumbnail" onclick="scrollToSlide(3, this)"><img src="imgsprincipais/oculoscarrossel3.jpg" alt="Thumb Detalhe 3" loading="lazy"></div>
+                            <div class="thumbnail" onclick="scrollToSlide(4, this)"><img src="imgsprincipais/oculoscarrosel4.jpg" alt="Thumb Detalhe 4" loading="lazy"></div>
                         </div>
                     </div>
 
@@ -161,19 +124,19 @@
                                 <span id="color-name">Preto</span>
                             </div>
                             <div class="swatches-grid">
-                                <div class="swatch-item active" onclick="selectColor(0, 'Preto', this)">
+                                <div class="swatch-item active" onclick="selectColor('imgsprincipais/oculospreto.jpg', 'Preto', this)">
                                     <div class="swatch bg-preto"></div>
                                     <span>Preto</span>
                                 </div>
-                                <div class="swatch-item" onclick="selectColor(5, 'Azul', this)">
+                                <div class="swatch-item" onclick="selectColor('imgsprincipais/oculosazul.jpg', 'Azul', this)">
                                     <div class="swatch bg-azul"></div>
                                     <span>Azul</span>
                                 </div>
-                                <div class="swatch-item" onclick="selectColor(10, 'Marrom', this)">
+                                <div class="swatch-item" onclick="selectColor('imgsprincipais/oculosmarrom.jpg', 'Marrom', this)">
                                     <div class="swatch bg-marrom"></div>
                                     <span>Marrom</span>
                                 </div>
-                                <div class="swatch-item" onclick="selectColor(15, 'Verde', this)">
+                                <div class="swatch-item" onclick="selectColor('imgsprincipais/oculosverde.jpg', 'Verde', this)">
                                     <div class="swatch bg-verde"></div>
                                     <span>Verde</span>
                                 </div>
@@ -1245,14 +1208,15 @@
             } else if (thumbnails[index]) {
                 thumbnails[index].classList.add('active');
             }
-
-            // Sync swatches if the index corresponds to a color
-            syncSwatches(index);
         }
 
-        function selectColor(index, name, element) {
+        function selectColor(imageSrc, name, element) {
             document.getElementById('color-name').textContent = name;
             
+            // Update main image and first thumbnail source
+            document.getElementById('main-color-img').src = imageSrc;
+            document.getElementById('thumb-color-img').src = imageSrc;
+
             // Update swatches
             const swatches = document.querySelectorAll('.swatch-item');
             swatches.forEach(s => s.classList.remove('active'));
@@ -1270,44 +1234,11 @@
                 ctaButtons.forEach(btn => btn.href = checkoutLinks[name]);
             }
 
-            scrollToSlide(index);
-        }
-
-        function syncSwatches(index) {
-            const swatches = document.querySelectorAll('.swatch-item');
-            const colorName = document.getElementById('color-name');
-            const ctaButtons = document.querySelectorAll('.cta-button');
-
-            // Map slide index ranges to color names
-            function colorForIndex(i) {
-                if (i >= 0 && i <= 4) return 'Preto';
-                if (i >= 5 && i <= 9) return 'Azul';
-                if (i >= 10 && i <= 14) return 'Marrom';
-                if (i >= 15 && i <= 19) return 'Verde';
-                return null;
-            }
-
-            const checkoutLinks = {
-                'Preto': 'https://pagamento.emglasses.com.br/checkout/210179153:1',
-                'Azul': 'https://pagamento.emglasses.com.br/checkout/210179152:1',
-                'Marrom': 'https://pagamento.emglasses.com.br/checkout/210179256:1',
-                'Verde': 'https://pagamento.emglasses.com.br/checkout/210179154:1'
-            };
-
-            const name = colorForIndex(index);
-            swatches.forEach(s => s.classList.remove('active'));
-            if (name) {
-                colorName.textContent = name;
-                const swatchToActivate = Array.from(swatches).find(s => s.querySelector('span').textContent === name);
-                if (swatchToActivate) swatchToActivate.classList.add('active');
-                if (checkoutLinks[name]) {
-                    ctaButtons.forEach(btn => btn.href = checkoutLinks[name]);
-                }
-            }
+            scrollToSlide(0);
         }
 
         function moveCarousel(direction) {
-            const totalSlides = 20;
+            const totalSlides = 5;
             currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
             scrollToSlide(currentSlide);
         }
@@ -1321,8 +1252,6 @@
                 const thumbnails = document.querySelectorAll('.thumbnail');
                 thumbnails.forEach(thumb => thumb.classList.remove('active'));
                 if (thumbnails[index]) thumbnails[index].classList.add('active');
-                // Keep color swatch in sync while the user scrolls/drags
-                syncSwatches(index);
             }
         });
 
